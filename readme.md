@@ -2,6 +2,8 @@
 
 A modern, full-stack blogging platform built with Node.js, Express, MongoDB, and Bootstrap. Create, share, and discuss blog posts with a clean and responsive interface.
 
+## 🔗 Live Demo - **[View Live Application](https://buildsbyaman-blogit.vercel.app/blogs)** ✨
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
@@ -44,38 +46,6 @@ A modern, full-stack blogging platform built with Node.js, Express, MongoDB, and
 - Flash messages for user feedback
 - Clean and modern card-based layout
 - Intuitive user experience
-
-## 🚀 Getting Started
-
-Capstone Project/
-├── models/
-│   ├── blog.js          # Blog schema with comments
-│   └── user.js          # User schema with passport plugin
-├── routes/
-│   ├── blogs.js         # Blog and comment routes
-│   └── user.js          # Authentication routes
-├── views/
-│   ├── layouts/
-│   │   ├── boilerplate.ejs  # Main layout template
-│   │   ├── header.ejs       # Navigation header
-│   │   ├── footer.ejs       # Footer
-│   │   └── flash.ejs        # Flash messages
-│   ├── users/
-│   │   ├── login.ejs        # Login page
-│   │   ├── signup.ejs       # Registration page
-│   │   └── profile.ejs      # User profile page
-│   ├── index.ejs        # Blog listing page
-│   ├── add.ejs          # Create blog page
-│   ├── edit.ejs         # Edit blog page
-│   └── show.ejs         # Single blog view with comments
-├── public/
-│   └── style.css        # Custom styles
-├── middlewares.js       # Authentication middlewares
-├── models.js            # Joi validation schemas
-├── app.js               # Main application file
-├── package.json         # Dependencies
-└── readme.md            # This file
-```
 
 ## 🛠️ Technologies Used
 
