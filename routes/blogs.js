@@ -139,7 +139,7 @@ router.delete("/blogs/:id", isLoggedIn, async (req, res) => {
       if (postOwnerId === userId) {
         await Blog.findByIdAndDelete(id);
         const currentUser = await User.findById(userId);
-        currentUser = currentUser.blogs.filter((blog) => {
+        currentUser.blogs = currentUser.blogs.filter((blog) => {
           return blog.id !== blog.id;
         });
         await currentUser.save();
