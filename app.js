@@ -53,7 +53,7 @@ app.use((req, res, next) => {
 });
 
 const main = async () => {
-  await mongoose.connect(process.env.MONGO_URI);
+  await mongoose.connect(process.env.MONGODB_URI);
 };
 
 main()
